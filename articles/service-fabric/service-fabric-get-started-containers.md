@@ -372,7 +372,7 @@ Windows Server containers may not be compatible across different versions of the
 ```xml
       <ContainerHostPolicies> 
          <ImageOverrides> 
-	       <Image Name="myregistry.azurecr.io/samples/helloworldappDefault" /> 
+               <Image Name="myregistry.azurecr.io/samples/helloworldappDefault" /> 
                <Image Name="myregistry.azurecr.io/samples/helloworldapp1701" Os="14393" /> 
                <Image Name="myregistry.azurecr.io/samples/helloworldapp1709" Os="16299" /> 
          </ImageOverrides> 
